@@ -1,0 +1,108 @@
+#container {
+  margin-top: 100px;
+}
+
+.mainContainer {
+  width: 100%;
+  padding: 0 8% 4%;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+.subContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+
+.mainHeading {
+  margin: 0;
+}
+
+.filter {
+  width: 160px;
+}
+
+.filterOptionsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterContainer {
+  margin: 6px 0;
+}
+
+.filterHeading {
+  margin: 0;
+}
+
+.filterLabel {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.dateStyle {
+  font-weight: 500;
+}
+
+.dateStyle2 {
+  min-width: 90px;
+  font-weight: 500 !important;
+}
+
+.timeStyle {
+  font-weight: 500;
+}
+
+.filterInput {
+  margin-right: 12px;
+  width: 9% !important;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.tableDesign {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeadingRow {
+  vertical-align: middle;
+}
+
+.tableHeading {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.tableBody {
+  border-collapse: collapse;
+}
+
+.rowData {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+
+.rowData td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.dataStyle1 {
+  color: #8c8c8c !important;
+  font-weight: 400;
+}
+
+.dataStyle2 {
+  font-weight: 500;
+}
+
+.idStyle {
+  width: 66px;
+}

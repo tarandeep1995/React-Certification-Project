@@ -1,0 +1,102 @@
+#container {
+  margin-top: 100px;
+}
+
+.mainContainer {
+  width: 100%;
+  padding: 0 8% 4%;
+  box-sizing: border-box;
+}
+
+.mainHeading {
+  margin: 0;
+}
+
+.subContainers {
+  width: 100%;
+  padding: 24px 0;
+  display: block;
+}
+
+.formDesign {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.searchBar {
+  width: 580px;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin: 0 36px 0 0;
+  padding: 12px 24px;
+}
+
+.resetBtn {
+  width: 120px;
+  display: inline-block;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #20b883;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 14px 36px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+.tableDiv {
+  width: 100%;
+}
+
+.tableDesign {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeading {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.tableHeadingRow {
+  vertical-align: middle;
+}
+
+.dateStyle {
+  min-width: 100px;
+}
+
+.tableBody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.rowData {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+
+.rowData td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.dataStyle1 {
+  color: #8c8c8c !important;
+  font-weight: 400;
+}
+
+.dataStyle2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
